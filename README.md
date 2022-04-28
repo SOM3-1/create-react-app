@@ -10,8 +10,8 @@
 "eject": "react-scripts eject"
 ```
 - webpack.config.js File
-- ```
-- js
+```
+js
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 module.exports = {
@@ -49,8 +49,7 @@ module.exports = {
 ```
 - .babelrc
  ```
- 
- js
+js
 {
     "presets": [
         "@babel/preset-react",
